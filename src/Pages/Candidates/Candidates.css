@@ -1,0 +1,27 @@
+.candidates-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.headings {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  cursor: pointer;
+}
+.course-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#all {
+  color: #FF9F43;
+}
+.table-list {
+  padding: 0px 20px 20px;
+}
+.divider {
+  border-top: 2px solid #E76A00;
+}

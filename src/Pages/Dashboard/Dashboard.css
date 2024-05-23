@@ -1,0 +1,138 @@
+/* progressbar css*/
+.progress-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 13px 0px;
+}
+.bar-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 15px;
+  width: 265px;
+  height: 160px;
+  border: 2px solid whitesmoke;
+  padding: 15px;
+  flex-direction: column;
+}
+
+.course {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.course p,
+.module p,
+span {
+  font-size: 12px;
+}
+
+.module {
+  width: 100%;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Performance css*/
+
+.charts-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+.chart-sec {
+  background-color: white;
+  border-radius: 15px;
+  width: 550px;
+  height: 340px;
+  border: 2px solid whitesmoke;
+}
+.chart-heading {
+  display: flex;
+  align-items: center;
+  padding: 12px 28px;
+  justify-content: space-between;
+}
+.time {
+  display: flex;
+  gap: 20px;
+}
+.time #month {
+  color: orange;
+}
+.chart-heading p {
+  font-size: 11px;
+}
+.chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CSEP-STYLES */
+.CS-EPAP-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+  gap: 10px;
+}
+.chart-info ul {
+  display: flex;
+  align-items: center;
+  padding: 0px 28px 10px;
+  gap: 20px;
+}
+.chart-info ul li {
+  font-size: 13px;
+}
+.chart-info ul {
+  list-style: none;
+}
+.chart-info ul li::before {
+  content: "●";
+  font-size: 20px;
+  margin-right: 8px;
+}
+.chart-info ul li.design::before {
+  color: #28c76f;
+}
+
+.chart-info ul li.development::before {
+  color: #0557a2;
+}
+.chart-info ul li.testing::before {
+  color: #ffab00;
+}
+
+/* Styles for the LineChart */
+.recharts-surface {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+
+.recharts-cartesian-axis-line {
+  display: none;
+}
+
+.recharts-cartesian-grid line {
+  stroke: #ccc;
+  stroke-dasharray: 3 3;
+}
+
+.recharts-tooltip {
+  font-family: "Inter", sans-serif;
+}
+
+.recharts-curve {
+  stroke-width: 1.5;
+}
